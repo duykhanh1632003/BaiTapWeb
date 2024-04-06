@@ -1,0 +1,32 @@
+/* UserDetail.css */
+
+.user-detail-container {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .detail-title {
+    margin-bottom: 10px;
+  }
+  
+  .detail-info {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .view-photos-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .view-photos-link:hover {
+    background-color: #0056b3;
+  }
+  

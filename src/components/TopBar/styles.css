@@ -1,0 +1,11 @@
+.topbar-appBar {
+  height: 60;
+  justify-content: "center";
+}
+.link-appbar{
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: white;
+}

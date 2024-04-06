@@ -1,0 +1,52 @@
+/* styles.css */
+
+/* Container for user photos */
+.user-photos-container {
+    max-width: 800px; /* Adjust as needed */
+    margin: 0 auto; /* Center container */
+    padding: 20px;
+  }
+  
+  /* Styles for each photo item */
+  .photo-item {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #f9f9f9;
+  }
+  
+  /* Styling for the photo itself */
+  .photo-item img {
+    max-width: 100%; /* Ensure image fits container */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Remove inline spacing */
+    border-radius: 5px;
+  }
+  
+  /* Styling for photo information */
+  .photo-info {
+    margin-top: 10px;
+  }
+  
+  /* Styling for comment items */
+  .comment-item {
+    margin-top: 10px;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    background-color: #f0f0f0;
+  }
+  
+  /* Styling for links within comments */
+  .comment-item a {
+    text-decoration: none;
+    color: #007bff; /* Blue color for links */
+  }
+  
+  /* Additional styling for typography */
+  /* You can further customize these styles based on your needs */
+  .typography {
+    /* Add your typography styles here */
+  }
+  
