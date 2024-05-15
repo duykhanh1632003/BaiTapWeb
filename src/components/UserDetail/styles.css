@@ -1,32 +1,49 @@
-/* UserDetail.css */
-
 .user-detail-container {
-    max-width: 600px;
-    margin: 0 auto;
-  }
-  
-  .detail-title {
-    margin-bottom: 10px;
-  }
-  
-  .detail-info {
-    padding: 10px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-  }
-  
-  .view-photos-link {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: #fff;
-    text-decoration: none;
-    border: 1px solid #007bff;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
-  }
-  
-  .view-photos-link:hover {
-    background-color: #0056b3;
-  }
-  
+  background-color: #f6f6f6;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  width: 400px;
+}
+
+.detail-title {
+  color: #000; /* Đổi màu chữ sang màu đen */
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: 600; /* Tăng độ đậm cho chữ tiêu đề */
+}
+
+.detail-info {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+.detail-info > * {
+  margin-bottom: 15px;
+}
+
+.detail-info strong {
+  font-weight: bold;
+  color: #333;
+}
+
+.view-photos-link {
+  display: inline-block; /* Hiển thị link dưới dạng block để có thể đặt margin và padding */
+  padding: 8px 12px; /* Thêm padding cho button */
+  background-color: orange; /* Màu nền của button */
+  color: white; /* Màu chữ của button */
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease; /* Hiệu ứng chuyển đổi màu nền */
+}
+
+.view-photos-link:hover {
+  background-color: #ff6600; /* Màu nền khi di chuột qua */
+}
+
+.view-photos-link:focus {
+  outline: none; /* Loại bỏ đường viền khi focus */
+}

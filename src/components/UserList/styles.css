@@ -2,7 +2,7 @@
 
 .user-list-container {
     max-width: 600px;
-    margin: 0 auto;
+    margin-top: 0;
   }
   
   .list-title {
@@ -23,4 +23,13 @@
   .list-text {
     color: #333;
   }
-  
+  .count-image{
+    background-color: rgb(128, 225, 79);
+    margin-bottom: 5px;
+    border-radius: 5px;
+  }
+  .count-comment{
+    background-color: rgb(225, 79, 205);
+    margin-bottom: 5px;
+    border-radius: 5px;
+  }

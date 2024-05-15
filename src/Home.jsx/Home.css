@@ -1,0 +1,8 @@
+.container{
+    width: 1000px;
+    height: full;
+    backdrop-filter: blur(10px); 
+}
+img{
+    backdrop-filter: blur(50px); 
+}

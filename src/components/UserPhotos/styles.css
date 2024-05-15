@@ -1,52 +1,73 @@
-/* styles.css */
-
-/* Container for user photos */
 .user-photos-container {
-    max-width: 800px; /* Adjust as needed */
-    margin: 0 auto; /* Center container */
-    padding: 20px;
-  }
-  
-  /* Styles for each photo item */
-  .photo-item {
-    margin-bottom: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    padding: 10px;
-    background-color: #f9f9f9;
-  }
-  
-  /* Styling for the photo itself */
-  .photo-item img {
-    max-width: 100%; /* Ensure image fits container */
-    height: auto; /* Maintain aspect ratio */
-    display: block; /* Remove inline spacing */
-    border-radius: 5px;
-  }
-  
-  /* Styling for photo information */
-  .photo-info {
-    margin-top: 10px;
-  }
-  
-  /* Styling for comment items */
-  .comment-item {
-    margin-top: 10px;
-    padding: 5px;
-    border: 1px solid #ddd;
-    border-radius: 3px;
-    background-color: #f0f0f0;
-  }
-  
-  /* Styling for links within comments */
-  .comment-item a {
-    text-decoration: none;
-    color: #007bff; /* Blue color for links */
-  }
-  
-  /* Additional styling for typography */
-  /* You can further customize these styles based on your needs */
-  .typography {
-    /* Add your typography styles here */
-  }
-  
+  max-width: 800px; /* Giới hạn chiều rộng tối đa */
+  margin: 0 auto; /* Canh giữa trang */
+  padding: 20px; /* Khoảng cách phía trong */
+  width: 800px;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.photo-item {
+  display: flex;
+  flex-direction: column; /* Hiển thị dạng cột */
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.photo-item:hover {
+  transform: translateY(-5px);
+}
+
+.img {
+  width: 100%; /* Chiều rộng tự động điều chỉnh */
+  max-width: 100%; /* Giới hạn chiều rộng tối đa */
+  height: auto; /* Đảm bảo tỷ lệ khung hình đúng */
+  border-radius: 8px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.photo-info {
+  flex: 1;
+}
+
+.date-time-img,
+.comment,
+.no-comment {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.date-comment {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.img-src {
+  font-size: 16px;
+  color: #333;
+}
+
+.img-src-title {
+  font-size: 16px;
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+.img-src-title:hover {
+  color: #0056b3;
+}
